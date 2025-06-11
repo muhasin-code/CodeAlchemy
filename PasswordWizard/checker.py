@@ -19,7 +19,7 @@ def main(password=None):
                   "Result:         oustanding")
         case 4:
             print(f"Strength Score: {score}\n"
-                  "Result:         Excedes Expectation")
+                  "Result:         Exceeds Expectations")
         case 3:
             print(f"Strength Score: {score}\n"
                   "Result:         Acceptable")
@@ -83,7 +83,7 @@ def numberChecker(password):
     if numberFlag:
         score += 1
     else:
-        shortcomings.append('Password must conatin atleast one numerical character')
+        shortcomings.append('Password must conatin atleast one numerical character.')
 
 
 def specialCharChecker(password):
@@ -103,7 +103,7 @@ def specialCharChecker(password):
     if specialFlag:
         score += 1
     else:
-        shortcomings.append('Password must conatin atleast one special character')
+        shortcomings.append('Password must conatin atleast one special character.')
 
 
 if __name__ == '__main__':
