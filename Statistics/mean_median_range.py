@@ -1,6 +1,6 @@
 def main():
-    n = 5 # int(input("Enter the number of datapoints: "))
-    datapoints = [1, 5, 4, 2, 3, 6] # [int(input("Enter datapoint: ")) for _ in range(n)]
+    n = int(input("Enter the number of datapoints: "))
+    datapoints = [int(input("Enter datapoint: ")) for _ in range(n)]
 
     print(f"Mean: {mean(n, datapoints)}")
     print(f"Median: {median(sorted(datapoints))}")
